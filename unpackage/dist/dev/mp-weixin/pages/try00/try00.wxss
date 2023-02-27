@@ -1,0 +1,48 @@
+
+.container {
+  padding: 20rpx;
+}
+.form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.label {
+  width: 160rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.value {
+  flex: 1;
+  font-size: 28rpx;
+  color: #666;
+}
+input,
+textarea {
+  flex: 1;
+  height: 100rpx;
+  padding: 10rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.btn-submit {
+  display: block;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #007aff;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+}
+.value {
+  flex: 1;
+  font-size: 28rpx;
+  color: #666;
+  white-space: pre-wrap; /* 新增的样式 */
+}
+
+

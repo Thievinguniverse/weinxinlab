@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/yuyue/yuyue",
+    "pages/info/info",
+    "pages/summit_idea/summit_idea",
+    "pages/try01/try01",
+    "pages/test/test",
+    "pages/try00/try00"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人信息"
+      },
+      {
+        "pagePath": "pages/summit_idea/summit_idea",
+        "text": "历史查询"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "意见反馈"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

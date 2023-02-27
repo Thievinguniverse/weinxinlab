@@ -1,0 +1,61 @@
+
+.table-container.data-v-3da711c6 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.timeclass.data-v-3da711c6 {
+	/* display: flex;
+position: fixed;
+position: sticky;
+top: 0;
+left: 0;
+right: 0;
+background-color: #fff;
+z-index: 1; */
+	display: flex;
+	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff
+}
+.header-row.data-v-3da711c6 {
+	display: flex;
+	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 1;
+	/* 表头样式 */
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.header-cell.data-v-3da711c6 {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+}
+.table-content.data-v-3da711c6 {
+	flex: 1;
+	margin-top: 0px;
+}
+.data-row.data-v-3da711c6 {
+	display: flex;
+	/* 数据行样式 */
+	border-bottom: 1px solid #ccc;
+}
+.data-cell.data-v-3da711c6 {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+}
+
