@@ -79,6 +79,20 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "/pages/edit-profile/edit-profile",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/edit-profile/edit-profile",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

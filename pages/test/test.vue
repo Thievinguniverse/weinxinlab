@@ -18,7 +18,7 @@
 	  methods: {
 	    submit() {
 	     uni.request({
-	     				url:"http://8itjmc.natappfree.cc/Applets/AddAdvice",
+	     				url: this.$Url + "/Applets/AddAdvice",
 	     				 header: {
 	     					'Content-Type': 'application/json'  
 	     				}, 
@@ -33,12 +33,13 @@
 								// var obj = new Object();
 								// obj = res
 								
-							    console.log(res.data.data)
+							    
 	     			   }
 						
 	     			})
 					
 					console.log(this.value);
+					console.log(this.$member.memberObj.id);
 					this.value =""
 
 	    }

@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "uni-drawer": "/uni_modules/uni-drawer/components/uni-drawer/uni-drawer",
-    "mypicker": "/components/Mypicker/Mypicker"
-  }
-}

@@ -1,5 +1,10 @@
 import App from './App'
 
+import member from 'common.js'
+
+Vue.prototype.$Url = "http://8dhn7q.natappfree.cc"
+Vue.prototype.$member = member;
+
 // #ifndef VUE3
 import Vue from 'vue'
 Vue.config.productionTip = false

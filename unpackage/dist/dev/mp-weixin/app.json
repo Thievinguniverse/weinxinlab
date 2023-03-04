@@ -1,12 +1,11 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/yuyue/yuyue",
     "pages/info/info",
     "pages/summit_idea/summit_idea",
-    "pages/try01/try01",
     "pages/test/test",
-    "pages/try00/try00"
+    "pages/edit-profile/edit-profile",
+    "pages/applyadmin/applyadmin"
   ],
   "subPackages": [],
   "window": {

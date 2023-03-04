@@ -6,15 +6,7 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	    ,{
-            "path" : "pages/yuyue/yuyue",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": true
-            }
-            
-        }
+	   
         ,{
             "path" : "pages/info/info",
             "style" :                                                                                    
@@ -33,15 +25,7 @@
             }
             
         },
-		{
-		    "path" : "pages/try01/try01",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": true
-		    }
-		    
-		},
+	
 		{
             "path" : "pages/test/test",
             "style" :                                                                                    
@@ -50,16 +34,25 @@
                 "enablePullDownRefresh": true
             }
             
-        }
-        ,{
-            "path" : "pages/try00/try00",
+        },
+		{
+            "path" : "pages/edit-profile/edit-profile",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
-        }
+        },
+		{
+			"path": "pages/applyadmin/applyadmin",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		}
+        
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

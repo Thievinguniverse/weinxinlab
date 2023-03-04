@@ -1,0 +1,32 @@
+
+.container.data-v-1d460474 {
+	padding: 20rpx;
+}
+.form-group.data-v-1d460474 {
+	margin-bottom: 30rpx;
+}
+.form-label.data-v-1d460474 {
+	font-size: 32rpx;
+	color: #333;
+	margin-bottom: 20rpx;
+}
+.form-input.data-v-1d460474 {
+	width: 100%;
+	height: 80rpx;
+	font-size: 28rpx;
+	border: 2rpx solid #e0e0e0;
+	border-radius: 5rpx;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+	outline: none;
+}
+.submit-btn.data-v-1d460474 {
+	width: 100%;
+	height: 100rpx;
+	font-size: 32rpx;
+	border-radius: 10rpx;
+	background-color: #4caf50;
+	color: #fff;
+	margin-top: 50rpx;
+}
+

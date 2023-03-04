@@ -45,7 +45,9 @@
         this.date = e.detail.value;
       },
       submitForm() {
-        if (!this.name || !this.phone || !this.date) {
+		    // if (!this.name || !this.phone || !this.date)
+			console.log(this.name );
+        if (!this.name || !this.phone) {
           uni.showToast({
             title: '请填写完整信息',
             icon: 'none',
@@ -62,39 +64,39 @@
         uni.showLoading({
           title: '提交中...',
         });
-        uni.request({
-          url: 'https://example.com/api/booking',
-          method: 'POST',
-          data: {
-            roomName: this.roomName,
-            date: this.date,
-            name: this.name,
-            phone: this.phone,
-            remark: this.remark,
-          },
-          success: (res) => {
-            uni.hideLoading();
-            if (res.data.code === 0) {
-              uni.showToast({
-                title: '预约成功',
-                icon: 'success',
-              });
-              this.clearForm();
-            } else {
-              uni.showToast({
-                title: res.data.msg || '预约失败',
-                icon: 'none',
-              });
-            }
-          },
-          fail: () => {
-            uni.hideLoading();
-            uni.showToast({
-              title: '网络请求失败',
-              icon: 'none',
-            });
-          },
-        });
+        // uni.request({
+        //   url: 'https://example.com/api/booking',
+        //   method: 'POST',
+        //   data: {
+        //     roomName: this.roomName,
+        //     date: this.date,
+        //     name: this.name,
+        //     phone: this.phone,
+        //     remark: this.remark,
+        //   },
+        //   success: (res) => {
+        //     uni.hideLoading();
+        //     if (res.data.code === 0) {
+        //       uni.showToast({
+        //         title: '预约成功',
+        //         icon: 'success',
+        //       });
+        //       this.clearForm();
+        //     } else {
+        //       uni.showToast({
+        //         title: res.data.msg || '预约失败',
+        //         icon: 'none',
+        //       });
+        //     }
+        //   },
+        //   fail: () => {
+        //     uni.hideLoading();
+        //     uni.showToast({
+        //       title: '网络请求失败',
+        //       icon: 'none',
+        //     });
+        //   },
+        // });
       },
       clearForm() {
         this.date = '';
